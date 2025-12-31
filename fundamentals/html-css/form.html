@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+    <form>
+      <!-- Name Field -->
+      <label for="name">Name:</label>
+      <br />
+      <input type="text" name="name" id="name" placeholder="Enter your name" />
+
+      <!-- Email Field -->
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter your email"
+      />
+
+      <br />
+      <!-- Comment Field -->
+      <label for="comment">Comment:</label>
+      <br />
+      <textarea
+        name="comment"
+        id="comment"
+        rows="3"
+        cols="50"
+        placeholder="Enter your comment"
+      ></textarea>
+
+      <br />
+      <!-- Check Box -->
+      <label for="checkbox">Agree to terms and conditions:</label>
+      <input type="checkbox" name="checkbox" id="checkbox" />
+
+      <!-- Radio Button -->
+      <br />
+      <label for="radio">Select your gender:</label>
+      <input type="radio" name="radio" id="radio" value="male" /> Male
+      <input type="radio" name="radio" id="radio" value="female" /> Female
+      <br />
+      <!-- Submit Button -->
+      <br />
+      <input type="submit" value="Submit" />
+      <!-- Reset Button -->
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>
+
+<!--
+      Input Types:
+      - text
+      - password
+      - email
+      - number
+      - date
+      - time
+      - datetime-local
+      - month
+      - week
+      - url
+      - search
+      - tel
+      - color
+      - range
+      - file
+      - image
+      - submit
+      - reset
+      - button
+      - checkbox
+      - radio
+      - hidden
+    -->
