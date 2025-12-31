@@ -54,7 +54,7 @@ By the completion of this journey, the objective is to become a confident, produ
 
 ## Author
 
-Asim  
+Asim Kamal
 Full-Stack Developer (MERN)  
 Pakistan
 
