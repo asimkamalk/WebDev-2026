@@ -1,0 +1,16 @@
+h2 {
+    color: red;
+}
+
+h3 {
+    /* color: rgb(0, 255, 0); */
+    color: rgba(0, 255, 0, 0.5);
+}
+
+h4 {
+    color: #0000ffac;
+}
+
+p {
+    color: hsl(327, 92%, 50%);
+}
