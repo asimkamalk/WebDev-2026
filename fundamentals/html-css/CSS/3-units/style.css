@@ -1,0 +1,29 @@
+html {
+    /* font-size: 2em; */
+}
+
+p {
+    font-size: 4em;
+}
+
+section {
+    width: 500px;
+    height: 500px;
+    background-color: teal;
+}
+
+div {
+    width: 20%;
+    height: 50%;
+    background-color: red;
+}
+
+article h1 {
+    /* font-size: 2rem; */
+}
+
+.vw {
+    background-color: rebeccapurple;
+    width: 100vw;
+    height: 50vh;
+}
