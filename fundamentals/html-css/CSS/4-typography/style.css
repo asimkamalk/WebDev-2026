@@ -1,5 +1,25 @@
 h2 {
-    font-family: sans-serif;
-    font-size: 20px;
-    text-transform: capitalize;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-transform: capitalize;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h3 {
+  text-align: right;
+  cursor: pointer;
+}
+
+p {
+  line-height: 2;
+  /* letter-spacing: 2px; */
+  word-spacing: 10px;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: cornflowerblue;
+  cursor: pointer;
 }
