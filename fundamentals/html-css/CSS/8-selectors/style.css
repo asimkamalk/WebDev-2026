@@ -1,0 +1,44 @@
+/* Universal Selector */
+
+/* * {
+  border: 2px solid red;
+} */
+
+section * {
+  border: 2px solid teal;
+}
+
+.one {
+  color: red;
+}
+
+.two {
+  font-size: 4rem;
+}
+
+#one {
+  color: blueviolet;
+}
+
+div.text {
+  color: brown;
+}
+
+div p {
+  color: green;
+}
+
+section + p {
+  background-color: red;
+}
+
+/* Target */
+
+a[href="one"] {
+  color: orange;
+}
+
+/* Image Example */
+/* img[alt="nature"] {
+
+} */
