@@ -1,0 +1,30 @@
+/* Typography = inherited by default
+Layout & box model = NOT inherited */
+
+.parent {
+  color: orange;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.layout-parent {
+  /* Typography inherited */
+  color: red;
+  font-family: sans-serif;
+  font-size: 2rem;
+  /* Layout Properties not inherited */
+  width: 160px;
+  height: 160px;
+  background-color: blueviolet;
+}
+
+.layout-child {
+  position: relative;
+  left: 100px;
+  /* Explicitly inherit property for layout  - NOT RECOMMENDED*/
+  background-color: inherit;
+  width: inherit;
+  height: inherit;
+}
