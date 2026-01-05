@@ -1,0 +1,22 @@
+/* Shadow exmaple */
+/* X, Y, Blurness, Color */
+
+body {
+  background-color: black;
+}
+
+/* Text Shadow */
+h1 {
+  text-shadow: 2px 2px 2px red;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Box Shadow */
+div {
+  width: 200px;
+  height: 200px;
+  background-color: #5353b5;
+  box-shadow: 4px 5px 4px #1515ea;
+}
