@@ -1,0 +1,35 @@
+.block {
+  /* By defualt div display is block  e.g:*/
+  /* display: block; */
+  background-color: cyan;
+  /* width: 200px; */
+  height: 300px;
+}
+
+.inline {
+  /* By defualt span display is inline  e.g:*/
+  /* display: inline; */
+  background-color: teal;
+  width: 200px;
+  height: 200px;
+}
+
+.inline-block {
+  /* You can apply inline-block to any element (div or span) by explicitly setting display */
+  display: inline-block;
+  background-color: red;
+  width: 100px;
+  height: 20px;
+  text-align: center;
+}
+
+/* display: none → no space
+visibility: hidden → space remains */
+
+.display-none {
+  display: none;
+}
+
+.visibility-hidden {
+  visibility: hidden;
+}
