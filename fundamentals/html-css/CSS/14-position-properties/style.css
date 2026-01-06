@@ -1,0 +1,37 @@
+.contianer {
+  background: gray;
+  width: 90%;
+  height: 500px;
+}
+
+.d {
+  width: 100px;
+  height: 100px;
+}
+
+.one {
+  /* It will not leave it's original space */
+  background-color: red;
+  position: relative;
+  left: 200px;
+}
+
+.two {
+  background-color: blue;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+
+.three {
+  background-color: teal;
+  position: fixed;
+  left: 200px;
+  /* top: 200px; */
+}
+
+.four {
+  background-color: green;
+  position: sticky;
+  top: 100px;
+}
