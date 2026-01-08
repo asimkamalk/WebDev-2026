@@ -1,0 +1,21 @@
+:root {
+  /* --primary-color: blue; */
+  --primary-color: white;
+  --secondary-color: #4f0505;
+  --bg-color: red;
+  --font-size: 4rem;
+  --p: 20px;
+  --border-radius: 10px;
+}
+
+h1 {
+  color: var(--primary-color);
+  background-color: var(--bg-color);
+  padding: var(--p);
+  border-radius: var(--border-radius);
+}
+
+h2 {
+  font-size: var(--font-size);
+  color: var(--secondary-color);
+}
