@@ -1,0 +1,23 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
+
+p::before {
+  content: "Hello 😍";
+  background-color: red;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 800;
+}
+
+p::after {
+  content: " bye 👋";
+  background-color: red;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 800;
+}
