@@ -1,0 +1,38 @@
+/* Do not repeat yourseld */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn {
+  background: transparent;
+  border: none;
+  margin: 10px;
+  background-color: rgb(6, 6, 6);
+  padding: 1em 2em;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* section.two .btn {
+  background: transparent;
+  border: none;
+  margin: 10px;
+  background-color: rgba(21, 155, 21, 0.735);
+  padding: 1em 2em;
+  color: #fff;
+  cursor: pointer;
+} */
+
+.btn-scondary {
+  background-color: green;
+}
