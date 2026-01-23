@@ -15,7 +15,7 @@ const person2 = {
 
 // Value extracted can have default values
 const { firstName, lastName, age, job = "Unemployed" } = person2;
-console.log(firstName);
-console.log(lastName);
-console.log(age);
-console.log(job);
+console.log(firstName); //Patrick
+console.log(lastName); //Star
+console.log(age); //30
+console.log(job); // Unemployed
