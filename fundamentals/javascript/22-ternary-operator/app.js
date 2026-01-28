@@ -34,3 +34,11 @@ const res = passwordChecker(password);
 
 // Printing the result to the console
 console.log(res); // Output: Strong Password
+
+// Example 2
+// Using the ternary operator to check if a person is an adult.
+// If 'age' is 18 or more, 'isAdult' will be "Adult"; otherwise, it will be "Not Adult".
+const age = 25;
+
+const isAdult = age >= 18 ? "Adult" : "Not Adult";
+console.log(isAdult); // Output: Adult
