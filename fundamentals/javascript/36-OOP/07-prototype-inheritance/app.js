@@ -13,9 +13,26 @@ Animal.prototype.sound = function () {
 };
 
 function Dog(name, breed) {
+  Animal.call(this, name);
+  // this.name = name;
   this.breed = breed;
 }
 
-Dog.prototype.sound = function () {
-  return `Animals make sounds`;
+Dog.prototype = Object.create(Animal.prototype);
+
+Dog.prototype.bark = function () {
+  return "Woof";
 };
+
+// Dog.prototype.sound = function () {
+//   return `Animals make sounds`;
+// };
+
+const animal1 = new Animal("frog");
+console.log(animal1);
+console.log(animal1.sound());
+
+const dog1 = new Dog("Buddy", "Genus");
+console.log(dog1.name);
+console.log(dog1.sound());
+console.log(dog1.bark());
